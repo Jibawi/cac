@@ -1,0 +1,75 @@
+.campuse{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px;
+  
+  }
+  .campuse-col{
+     flex-basis: 32%;
+    border-radius: 10px;
+     margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+  
+  
+  }
+
+
+
+
+
+  .row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+  }
+  .campuse-col img{
+    width: 100%;
+    display: block;
+    
+    height: 200px;
+    margin-right: 10px;
+    margin-right: 10px;
+  }
+  
+  
+
+ 
+
+  .campuse-col {
+    display: flex;
+  }
+  .campuse-col  {
+    margin-bottom: 10px;
+  }
+  
+  .campuse-col  h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .campuse-col  p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+
+
+
+ 
+
+
+  .layere{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+  .layere:hover{
+   background: rgba(43, 33, 33, 0.2);
+  }

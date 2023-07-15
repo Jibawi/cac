@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(148, 133, 133);
+  }
+  .about{
+    background-image: url('imagelaptop.png');
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  }
+  @media (min-width: 700px) and (max-width: 1023px) {
+    h1 {
+      font-size: 22px;
+      color: rgb(122, 100, 100);
+    }
+}
